@@ -8,6 +8,5 @@ import io.ktor.server.routing.get
 fun Route.root() {
     get("/"){
         call.respond(message = "Welcome to App", status = HttpStatusCode.OK)
-
     }
 }
